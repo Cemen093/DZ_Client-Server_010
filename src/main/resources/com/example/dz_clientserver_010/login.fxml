@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dz_clientserver_010.LoginController">
+    <children>
+        <AnchorPane layoutY="99.0" prefHeight="300.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label layoutX="197.0" layoutY="14.0" text="Authorization" textFill="#804b4b">
+                    <font>
+                        <Font name="Constantia" size="50.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="email" layoutX="250.0" layoutY="109.0" prefHeight="30.0" prefWidth="200.0" promptText="Email" />
+                <PasswordField fx:id="password" layoutX="250.0" layoutY="162.0" prefHeight="30.0" prefWidth="200.0" promptText="Password" />
+                <Button fx:id="loginButton" layoutX="292.0" layoutY="212.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="116.0" style="-fx-background-color: #F39C63;" text="Login">
+                    <font>
+                        <Font name="Constantia" size="25.0" />
+                    </font>
+                </Button>
+                <Label fx:id="error" layoutX="336.0" layoutY="83.0" textFill="#ff1515" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="216.0" layoutY="22.0" text="Email Client" textFill="WHITE">
+            <font>
+                <Font name="Constantia" size="50.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

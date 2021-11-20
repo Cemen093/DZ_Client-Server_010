@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1800.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dz_clientserver_010.AppController">
+   <children>
+      <AnchorPane layoutY="99.0" prefHeight="800.0" prefWidth="1800.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <ListView fx:id="listLetters" prefHeight="800.0" prefWidth="400.0" />
+            <TextArea fx:id="textArea" layoutX="400.0" prefHeight="800.0" prefWidth="1400.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="766.0" layoutY="23.0" text="Email Client" textFill="WHITE">
+         <font>
+            <Font name="Constantia" size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="email" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="1517.0" layoutY="53.0" prefHeight="24.0" prefWidth="269.0" text="email" textFill="WHITE">
+         <font>
+            <Font name="Constantia" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="logoutButton" layoutX="1682.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="103.0" style="-fx-background-color: #F39C63;" text="Log out">
+         <font>
+            <Font name="Constantia" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
